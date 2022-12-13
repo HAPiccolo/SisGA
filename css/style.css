@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    font-family: Kanit, sans-serif;
+    color: rgb(7, 7, 7);
+}
+
+h3{
+    margin: auto;
+}
+
+.contenedor-principal{
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-cajas-texto{
+        border: 1px solid rgb(165, 165, 160);
+        width: 300px;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+}
+
+.barra-principal{
+    border: 1px solid rgb(165, 165, 160);
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 19px rgb(90, 81, 80);
+}
+
+body{
+
+    background-color: rgb(255, 255, 255);}
+
+.entradas{
+    margin: 25px;
+    border: solid 1px rgb(165, 165, 160);
+    background-color: unset;
+    display: flex;
+    border-radius: 100px;
+    text-align: center;
+    box-shadow: 1px 1px 8px rgb(90, 81, 80);
+    
+}
+
+.entradas:hover{
+    background-color: rgba(145, 148, 145, 0.459);
+}
+
+.botones{
+    background-color: transparent;
+    border: solid 1px rgb(161, 165, 160);
+    border-radius: 100px;
+    margin: 2px;
+    width: 123px;
+    display: fl;
+    height: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 8px rgb(90, 81, 80);
+
+
+
+}
+
+.botones:hover{
+    background-color: rgba(12, 12, 12);
+    color: aliceblue;
+}
+.botones:active{
+    background-color: rgb(165, 165, 160);
+    color: black;
+}
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+
+}
